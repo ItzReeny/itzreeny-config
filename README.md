@@ -1,0 +1,1 @@
+# itzreeny-s-hyprland.conf
