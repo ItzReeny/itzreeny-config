@@ -1,0 +1,115 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260629_005145
+====================================================================================================
+
+6     |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+9     |Info:    [ProfileManager] Valid v5 profile found for sdfad
+147   |Info:    [ResourceManager] Initializing HID interfaces: Success
+147   |Info:    ------------------------------------------------------
+147   |Info:    |               Start device detection               |
+147   |Info:    ------------------------------------------------------
+154   |Info:    ------------------------------------------------------
+154   |Info:    |             Detecting I2C interfaces               |
+154   |Info:    ------------------------------------------------------
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+154   |Info:    ------------------------------------------------------
+154   |Info:    |               Detecting I2C devices                |
+154   |Info:    ------------------------------------------------------
+325   |Info:    [ENE DRAM] Registering RGB controller
+490   |Info:    [ENE DRAM] Registering RGB controller
+808   |Info:    ------------------------------------------------------
+808   |Info:    |            Detecting I2C DIMM modules              |
+808   |Info:    ------------------------------------------------------
+1095  |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1569  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1980  |Info:    ------------------------------------------------------
+1980  |Info:    |               Detecting I2C PCI devices            |
+1980  |Info:    ------------------------------------------------------
+1982  |Info:    ------------------------------------------------------
+1982  |Info:    |               Detecting HID devices                |
+1982  |Info:    ------------------------------------------------------
+2034  |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+2109  |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+2109  |Info:    ------------------------------------------------------
+2109  |Info:    |            Detecting libusb HID devices            |
+2109  |Info:    ------------------------------------------------------
+2117  |Info:    ------------------------------------------------------
+2117  |Info:    |              Detecting other devices               |
+2117  |Info:    ------------------------------------------------------
+2134  |Info:    [ResourceManager] Calling Post-detection callbacks
+2134  |Info:    ------------------------------------------------------
+2134  |Info:    |                Detection completed                 |
+2134  |Info:    ------------------------------------------------------
+28593 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+28593 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+30506 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+30506 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+32499 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+32499 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+33742 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+33742 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+37136 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+37136 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+37536 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+37536 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+37705 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+37705 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+39734 |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-1, address 0x71
+39734 |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-1, address 0x73
+39734 |Info:    [ProfileManager] Profile loading: Succeeded for ROYUAN Gaming Keyboard @ HID: /dev/hidraw7
+39734 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS PRIME B560-PLUS @ HID: /dev/hidraw8
+51891 |Info:    [ResourceManager] Initializing HID interfaces: Success
+51891 |Info:    ------------------------------------------------------
+51891 |Info:    |               Start device detection               |
+51891 |Info:    ------------------------------------------------------
+51897 |Info:    ------------------------------------------------------
+51897 |Info:    |             Detecting I2C interfaces               |
+51897 |Info:    ------------------------------------------------------
+51897 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+51897 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+51897 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+51897 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+51898 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+51898 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+51898 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+51898 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+51898 |Info:    ------------------------------------------------------
+51898 |Info:    |               Detecting I2C devices                |
+51898 |Info:    ------------------------------------------------------
+52064 |Info:    [ENE DRAM] Registering RGB controller
+52230 |Info:    [ENE DRAM] Registering RGB controller
+52548 |Info:    ------------------------------------------------------
+52548 |Info:    |            Detecting I2C DIMM modules              |
+52548 |Info:    ------------------------------------------------------
+52835 |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+53306 |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+53717 |Info:    ------------------------------------------------------
+53717 |Info:    |               Detecting I2C PCI devices            |
+53717 |Info:    ------------------------------------------------------
+53718 |Info:    ------------------------------------------------------
+53718 |Info:    |               Detecting HID devices                |
+53718 |Info:    ------------------------------------------------------
+53770 |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+53844 |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+53844 |Info:    ------------------------------------------------------
+53844 |Info:    |            Detecting libusb HID devices            |
+53844 |Info:    ------------------------------------------------------
+53847 |Info:    ------------------------------------------------------
+53847 |Info:    |              Detecting other devices               |
+53847 |Info:    ------------------------------------------------------
+53854 |Info:    [ResourceManager] Calling Post-detection callbacks
+53854 |Info:    ------------------------------------------------------
+53854 |Info:    |                Detection completed                 |
+53854 |Info:    ------------------------------------------------------
+96978 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+96978 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+102245|Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+102245|Info:    [ProfileManager] Valid v5 profile found for sdfad

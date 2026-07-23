@@ -1,0 +1,118 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260319_203552
+====================================================================================================
+
+53    |Info:    [ResourceManager] Saving detector settings
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+63    |Info:    ------------------------------------------------------
+63    |Info:    |             Detecting I2C interfaces               |
+63    |Info:    ------------------------------------------------------
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+63    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+64    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+64    |Info:    ------------------------------------------------------
+64    |Info:    |               Detecting I2C devices                |
+64    |Info:    ------------------------------------------------------
+347   |Info:    ------------------------------------------------------
+347   |Info:    |            Detecting I2C DIMM modules              |
+347   |Info:    ------------------------------------------------------
+648   |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1146  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1548  |Info:    ------------------------------------------------------
+1548  |Info:    |               Detecting I2C PCI devices            |
+1548  |Info:    ------------------------------------------------------
+1549  |Info:    ------------------------------------------------------
+1549  |Info:    |               Detecting HID devices                |
+1549  |Info:    ------------------------------------------------------
+1600  |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+1672  |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+1672  |Info:    ------------------------------------------------------
+1672  |Info:    |            Detecting libusb HID devices            |
+1672  |Info:    ------------------------------------------------------
+1680  |Info:    ------------------------------------------------------
+1680  |Info:    |              Detecting other devices               |
+1680  |Info:    ------------------------------------------------------
+1694  |Info:    [ResourceManager] Calling Post-detection callbacks
+1694  |Info:    ------------------------------------------------------
+1694  |Info:    |                Detection completed                 |
+1694  |Info:    ------------------------------------------------------
+1694  |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
+28226 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+28226 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+55012 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+55012 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+82183 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+82183 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+85388 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+85388 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+85905 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+85905 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+89100 |Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+89100 |Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+101532|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+101532|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+102430|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+102430|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+104237|Info:    [ResourceManager] Initializing HID interfaces: Success
+104237|Info:    ------------------------------------------------------
+104237|Info:    |               Start device detection               |
+104237|Info:    ------------------------------------------------------
+104244|Info:    ------------------------------------------------------
+104244|Info:    |             Detecting I2C interfaces               |
+104244|Info:    ------------------------------------------------------
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+104244|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+104245|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+104245|Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+104245|Info:    ------------------------------------------------------
+104245|Info:    |               Detecting I2C devices                |
+104245|Info:    ------------------------------------------------------
+104526|Info:    ------------------------------------------------------
+104526|Info:    |            Detecting I2C DIMM modules              |
+104526|Info:    ------------------------------------------------------
+104827|Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+105322|Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+105720|Info:    ------------------------------------------------------
+105720|Info:    |               Detecting I2C PCI devices            |
+105720|Info:    ------------------------------------------------------
+105721|Info:    ------------------------------------------------------
+105721|Info:    |               Detecting HID devices                |
+105721|Info:    ------------------------------------------------------
+105772|Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+105844|Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+105844|Info:    ------------------------------------------------------
+105844|Info:    |            Detecting libusb HID devices            |
+105844|Info:    ------------------------------------------------------
+105847|Info:    ------------------------------------------------------
+105847|Info:    |              Detecting other devices               |
+105847|Info:    ------------------------------------------------------
+105852|Info:    [ResourceManager] Calling Post-detection callbacks
+105852|Info:    ------------------------------------------------------
+105852|Info:    |                Detection completed                 |
+105852|Info:    ------------------------------------------------------
+105852|Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
+194566|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+194566|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+195488|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+195488|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+195717|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+195717|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+195876|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+195876|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+216069|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+216069|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7
+353135|Info:    [ProfileManager] Profile loading: FAILED! for ROYUAN Gaming Keyboard @ HID: /dev/hidraw2
+353135|Info:    [ProfileManager] Profile loading: FAILED! for ASUS PRIME B560-PLUS @ HID: /dev/hidraw7

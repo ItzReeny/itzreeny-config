@@ -1,0 +1,7 @@
+[General]
+theme=Nordic-Darker
+
+[Applications]
+KvAdapta=konsole
+KvArc=konsole
+Nordic-Darker=dolphin

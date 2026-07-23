@@ -1,0 +1,97 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260628_232024
+====================================================================================================
+
+75    |Info:    [ResourceManager] Initializing HID interfaces: Success
+75    |Info:    ------------------------------------------------------
+75    |Info:    |               Start device detection               |
+75    |Info:    ------------------------------------------------------
+91    |Info:    ------------------------------------------------------
+91    |Info:    |             Detecting I2C interfaces               |
+91    |Info:    ------------------------------------------------------
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+92    |Info:    ------------------------------------------------------
+92    |Info:    |               Detecting I2C devices                |
+92    |Info:    ------------------------------------------------------
+297   |Info:    [ENE DRAM] Registering RGB controller
+473   |Info:    [ENE DRAM] Registering RGB controller
+799   |Info:    ------------------------------------------------------
+799   |Info:    |            Detecting I2C DIMM modules              |
+799   |Info:    ------------------------------------------------------
+1088  |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1563  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1971  |Info:    ------------------------------------------------------
+1971  |Info:    |               Detecting I2C PCI devices            |
+1971  |Info:    ------------------------------------------------------
+1973  |Info:    ------------------------------------------------------
+1973  |Info:    |               Detecting HID devices                |
+1973  |Info:    ------------------------------------------------------
+2024  |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+2099  |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+2099  |Info:    ------------------------------------------------------
+2099  |Info:    |            Detecting libusb HID devices            |
+2099  |Info:    ------------------------------------------------------
+2110  |Info:    ------------------------------------------------------
+2110  |Info:    |              Detecting other devices               |
+2110  |Info:    ------------------------------------------------------
+2128  |Info:    [ResourceManager] Calling Post-detection callbacks
+2128  |Info:    ------------------------------------------------------
+2128  |Info:    |                Detection completed                 |
+2128  |Info:    ------------------------------------------------------
+12584 |Info:    [ResourceManager] Initializing HID interfaces: Success
+12584 |Info:    ------------------------------------------------------
+12584 |Info:    |               Start device detection               |
+12584 |Info:    ------------------------------------------------------
+12592 |Info:    ------------------------------------------------------
+12593 |Info:    |             Detecting I2C interfaces               |
+12593 |Info:    ------------------------------------------------------
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 8086:43A3 Subsystem: 1043:8694
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2484 Subsystem: 1043:87BD
+12593 |Info:    ------------------------------------------------------
+12593 |Info:    |               Detecting I2C devices                |
+12593 |Info:    ------------------------------------------------------
+12766 |Info:    [ENE DRAM] Registering RGB controller
+12935 |Info:    [ENE DRAM] Registering RGB controller
+13254 |Info:    ------------------------------------------------------
+13254 |Info:    |            Detecting I2C DIMM modules              |
+13254 |Info:    ------------------------------------------------------
+13541 |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+14012 |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+14423 |Info:    ------------------------------------------------------
+14423 |Info:    |               Detecting I2C PCI devices            |
+14423 |Info:    ------------------------------------------------------
+14425 |Info:    ------------------------------------------------------
+14425 |Info:    |               Detecting HID devices                |
+14425 |Info:    ------------------------------------------------------
+14477 |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+14551 |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+14551 |Info:    ------------------------------------------------------
+14551 |Info:    |            Detecting libusb HID devices            |
+14551 |Info:    ------------------------------------------------------
+14554 |Info:    ------------------------------------------------------
+14554 |Info:    |              Detecting other devices               |
+14554 |Info:    ------------------------------------------------------
+14561 |Info:    [ResourceManager] Calling Post-detection callbacks
+14561 |Info:    ------------------------------------------------------
+14561 |Info:    |                Detection completed                 |
+14561 |Info:    ------------------------------------------------------
+62983 |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+62983 |Info:    [ProfileManager] Valid v5 profile found for sdfad
+65737 |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-1, address 0x71
+65737 |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-1, address 0x73
+65737 |Info:    [ProfileManager] Profile loading: Succeeded for ROYUAN Gaming Keyboard @ HID: /dev/hidraw7
+65737 |Info:    [ProfileManager] Profile loading: Succeeded for ASUS PRIME B560-PLUS @ HID: /dev/hidraw8

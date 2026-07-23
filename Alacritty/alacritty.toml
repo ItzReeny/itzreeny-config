@@ -1,0 +1,29 @@
+# ~/.config/alacritty/alacritty.toml
+
+[colors.primary]
+background = '#2C323A'
+foreground = '#DCDADF'
+
+[colors.normal]
+black = '#384048'
+red = '#D2857C'
+green = '#A3B85B'
+yellow = '#E0B56A'
+blue = '#7C9CB4'
+magenta = '#B87C9B'
+cyan = '#85B6B2'
+white = '#DCDADF'
+
+[colors.bright]
+black = '#4A5560'
+red = '#E3968C'
+green = '#B4C96C'
+yellow = '#F1C67B'
+blue = '#8DACBF'
+magenta = '#C98CAB'
+cyan = '#96C7C2'
+white = '#EDEDEF'
+
+[colors.cursor]
+text = 'CellBackground'
+cursor = 'CellForeground'

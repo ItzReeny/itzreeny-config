@@ -1,0 +1,60 @@
+    OpenRGB v0.9+ (1.0rc3)
+    Commit:  from 
+    Launched: 20260704_160104
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: sdfad.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for sdfad
+53    |Info:    [ResourceManager] Initializing HID interfaces: Success
+53    |Info:    ------------------------------------------------------
+53    |Info:    |               Start device detection               |
+53    |Info:    ------------------------------------------------------
+59    |Info:    ------------------------------------------------------
+59    |Info:    |             Detecting I2C interfaces               |
+59    |Info:    ------------------------------------------------------
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 3 at 1:00.0
+ (/dev/i2c-3) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    [ResourceManager] Registering I2C interface: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-1) Device 8086:43A3 Subsystem: 1043:8694
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 7 at 1:00.0
+ (/dev/i2c-6) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 5 at 1:00.0
+ (/dev/i2c-4) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 1 at 1:00.0
+ (/dev/i2c-2) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 0000:0000 Subsystem: 0000:0000
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 8 at 1:00.0
+ (/dev/i2c-7) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 6 at 1:00.0
+ (/dev/i2c-5) Device 10DE:2484 Subsystem: 1043:87BD
+59    |Info:    ------------------------------------------------------
+59    |Info:    |               Detecting I2C devices                |
+59    |Info:    ------------------------------------------------------
+227   |Info:    [ENE DRAM] Registering RGB controller
+390   |Info:    [ENE DRAM] Registering RGB controller
+614   |Info:    ------------------------------------------------------
+614   |Info:    |            Detecting I2C DIMM modules              |
+614   |Info:    ------------------------------------------------------
+903   |Info:    [ResourceManager] Detected occupied slot 2, bus 1, type DDR4
+1375  |Info:    [ResourceManager] Detected occupied slot 4, bus 1, type DDR4
+1787  |Info:    ------------------------------------------------------
+1787  |Info:    |               Detecting I2C PCI devices            |
+1787  |Info:    ------------------------------------------------------
+1788  |Info:    ------------------------------------------------------
+1788  |Info:    |               Detecting HID devices                |
+1788  |Info:    ------------------------------------------------------
+1841  |Info:    [ROYUAN Gaming Keyboard] Registering RGB controller
+1913  |Info:    [ASUS PRIME B560-PLUS] Registering RGB controller
+1913  |Info:    ------------------------------------------------------
+1913  |Info:    |            Detecting libusb HID devices            |
+1913  |Info:    ------------------------------------------------------
+1921  |Info:    ------------------------------------------------------
+1921  |Info:    |              Detecting other devices               |
+1921  |Info:    ------------------------------------------------------
+1937  |Info:    [ResourceManager] Calling Post-detection callbacks
+1937  |Info:    ------------------------------------------------------
+1937  |Info:    |                Detection completed                 |
+1937  |Info:    ------------------------------------------------------
+4179  |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-1), address 0x71
+4179  |Info:    [ProfileManager] Profile loading: Succeeded for ENE DRAM @ I2C: SMBus I801 adapter at 0000:00:1f.4 (/dev/i2c-1), address 0x73
+4179  |Info:    [ProfileManager] Profile loading: Succeeded for ROYUAN Gaming Keyboard @ HID: /dev/hidraw8
+4179  |Info:    [ProfileManager] Profile loading: Succeeded for ASUS PRIME B560-PLUS @ HID: /dev/hidraw9
