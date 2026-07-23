@@ -1,1 +1,1 @@
-# itzreeny-s-hyprland.conf
+# it is too much i know
