@@ -1,0 +1,41 @@
+window {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    background-color: rgba(46, 52, 64, 0.5); /* Nord0 with transparency */
+}
+
+button {
+    color: #d8dee9; /* Nord4 */
+    background-color: #3b4252; /* Nord1 */
+    border-radius: 10px;
+    border: 2px solid #4c566a; /* Nord3 */
+    margin: 10px;
+    transition: background-color 0.3s;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+}
+
+button:focus, button:active, button:hover {
+    background-color: #88c0d0; /* Nord8 (accent) */
+    color: #2e3440;
+    outline: none;
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"));
+}
+
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+}
