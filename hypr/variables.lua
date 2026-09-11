@@ -13,7 +13,7 @@ M.terminal = "kitty"
 M.fileManager = "nautilus"
 M.menu = "wofi --show drun"
 M.menu_logout = "pkill wlogout || wlogout -b 2 -c 10 -r 10"
-M.taskmanager = "flatpak kill net.nokyan.Resources || net.nokyan.Resources"
+M.taskmanager = "pgrep -x resources && pkill -x resources || resources"
 M.mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 return M

@@ -5,8 +5,8 @@
   "spacing" : 0,
   "modules-left": [
   "hyprland/workspaces",
-  "custom/uptime",
   "tray",
+  "custom/uptime",
   ],
 
   "modules-center": ["clock"],
@@ -21,6 +21,7 @@
 
 "hyprland/workspaces": {
     "format": "{name} {icon}",
+    "on-click": "activate",
     "format-icons": {
       "active": "",
       "default": ""
@@ -63,14 +64,14 @@
     "interval": 1
   },
 
-  "network": {
-    "format-wifi": "󰤢",
-    "format-ethernet": "󰈀 ",
-    "format-disconnected": "󰤠 ",
-    "interval": 5,
-    "tooltip-format": "{essid} ({signalStrength}%)",
-    "on-click": "iwgtk"
-
+"network": {
+  "format-wifi": "󰤢",
+  "format-ethernet": "󰈀 ",
+  "format-disconnected": "󰤠 ",
+  "interval": 5,
+  "tooltip-format": "{essid} ({signalStrength}%)",
+  "on-click": "iwgtk",
+  "on-click-right": "nm-connection-editor"
  },
 
   "cpu": {
@@ -90,7 +91,7 @@
     "format": "{}",
     "format-icon": [""],
     "tooltip": false,
-    "interval": 1600,
+    "interval": 60,
     "exec": "$HOME/.config/waybar/scripts/uptime.sh"
   },
 
@@ -130,14 +131,6 @@
   "tooltip": false,
   "on-click": "sh -c '(sleep 0s; hyprlock)' & disown",
   "format" : ""
-  },
-
-  "custom/pomodoro": {
-	"format": "{}",
-	"return-type": "json",
-	"exec": "waybar-module-pomodoro --no-work-icons",
-	"on-click": "waybar-module-pomodoro toggle",
-	"on-click-right": "waybar-module-pomodoro reset",
   },
 
 }
