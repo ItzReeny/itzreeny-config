@@ -30,6 +30,6 @@ hl.gesture({
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 hl.device({
-    name = "Logitech Pro X SuperLight2",
+    name = "Super Cool Mouse",
     sensitivity = -0.5,
 })
