@@ -6,10 +6,10 @@
 -- Refer to the wiki for more information.
 -- https://wiki.hypr.land/Configuring/Start/
 
+require("envs")
 require("monitors")
 require("variables")
 require("autostart")
-require("envs")
 require("permissions")
 require("looknfeel")
 require("animations")
