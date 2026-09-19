@@ -20,7 +20,7 @@ hl.config({
         resize_on_border = false,
         allow_tearing = false,
 
-        layout = "scrolling",
+        layout = "dwindle",
     },
 
     -- NOTE: your original had two `decoration {}` blocks (the second only
